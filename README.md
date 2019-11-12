@@ -146,7 +146,7 @@ $dom->load('http://gmail.com'); // will not have whitespaceTextNode set to false
 
 At the moment we support 8 options.
 
-**Strict**
+**strict**
 
 Strict, by default false, will throw a `StrickException` if it find that the html is not strictly compliant (all tags must have a closing tag, no attribute with out a value, etc.).
 
